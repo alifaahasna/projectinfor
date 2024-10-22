@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Berita </title>
+    <link rel="stylesheet" type="text/css" href="kirimpesan.css">
+</head>
+<body>
+    <!--nav-->
+    <nav>
+        <div class="logo">
+            <img src="logopk-removebg-preview.png" height="100px" width="100px">
+        </div>
+        <ul class="navbar">
+            <li> <a href="Index.html"> Utama </a> </li>
+            <li> <a href="ProjekAkhirProfil.html"> Profil </a> </li>
+            <li> <a href="ProjekAkhirBerita.html"> Berita </a> </li>
+            <li> <a href="ProjekAkhirGaleri.html"> Galeri </a> </li>
+            <li> <a href="ProjekAkhirKontak.html"> Kontak </a> </li>
+        </ul>
+        </div>
+    </nav>
+
+    <!--header-->
+    <header>
+        <h1> Kirim pesan anda <br> ke angket di bawah ini: </h1>
+        <hr width="90%">
+    </header>
+
+    <!--maincontent-->
+    <main>
+        <div class="container">
+            <h2> Kepada Perwakilan Kelas 70, </h2>
+            <form action="ProjectAkhirTerimakasih.html" method="post">
+                <lable for="nama"> Nama: </lable>
+                <input type="text" id="nama" name="nama" required> <br>
+
+                <lable for="email"> Email: </lable>
+                <input type="email" name="email" placeholder="alifahasna@gmail.com" required> <br>
+ 
+                <lable for="status"> Status: </lable>
+                <select name="status">
+                    <option> Pelajar </option>
+                    <option> Guru </option>
+                    <option> Orang tua murid </option>
+                    <option> Yang lainnya </option>
+                </select>
+
+                <label for="Pesan"> Pesan: </label>
+                <textarea name="pesan" rows="4 px" cols="40px" id="pesan" name="pesan" required placeholder="Tulis pesan disini"></textarea>
+
+                <div class="tombol"> <input type="submit" name="submit" value="submit">
+                <input type="reset" name="reset" value="reset"> </div>
+            </form>
+        </div>
+    </main>
+
+    <div class="separator"></div>
+
+    <div class="main2">
+        <div class="PKSMAN3">
+            <h3> PK SMAN 3 BANDUNG </h3>
+            <p> PK adalah satu-satunya organisasi legislatif di SMA Negeri 3 Bandung yang bersifat non-insidental. </p>
+        </div>
+        <div class="Motto">
+            <h3> MOTTO </h3>
+            <p> PK memiliki motto yang berbunyi "Loyalitasku Untuk PK!" biasa <br> disebutkan sambil menyimpan tangan kanan yang digenggam di dada sebelah kiri. </p>
+        </div>
+        <div class="Visi">
+            <h3> VISI </h3>
+            <p> Visi Perwakilan Kelas 70 adalah Menjadikan PK 70 sebagai jembatan bagi seluruh komponen sekolah dalam bidang <br> legislasi di lingkungan SMAN 3 Bandung. </p>
+        </div>
+        <div class="fungsi">
+            <h3> FUNGSI </h3>
+            <p> Perwakilan Kelas memiliki 4 fungsi yaitu sebagai <i>controller, evaluator, planner</i>, dan <i>aspirator</i>.</p>
+        </div>
+    </div>
+
+    <!--footer-->
+    <footer>
+        <p>&copy; 2024 SMA Negeri 3 Bandung. All Rights Reserved.</p>
+    </footer>
+</body>

@@ -1,0 +1,234 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /*tinggi 100 persen*/
+}
+
+nav {
+    position: fixed;
+    background-color: black; 
+    width: calc(100% - 40px);
+    height: 70px;
+    padding: 30px;
+    padding-top: 5px;
+    margin: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    float: right;
+    padding-top: 25px;
+    padding-right: 30px;
+    gap: 1em;
+}
+
+.navbar li {
+    margin: 0;
+    display: flex;
+    font-size: 1em;
+}
+
+.navbar a {
+    padding: 7px 8px;
+    color: goldenrod;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+.logo {
+    height: 5px;
+    width: 5px;
+}
+
+header {
+    background-color: rgb(33, 33, 33);
+    height: 80vh;
+    color: goldenrod;
+    padding: 50px;
+    margin-bottom: 0;
+}
+
+.logopk {
+    float: right;
+    margin-top: 80px;
+    padding-right: 70px;
+    padding-top: 50px;
+}
+
+.maknalogo {
+    float: left;
+    margin-top: 80px;
+    bottom: 0;
+    padding-right: 70px;
+    width: 50% ;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+    font-size: 2em;
+    line-height: 0em;
+}
+
+.maknalogo h2 {
+    color: gold;
+}
+
+.penjelasan {
+    top: 0;
+    float: left;
+    padding-right: 70px;
+    width: 65% ;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+    line-height: 1em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px; 
+    text-align: justify;
+     }
+
+
+.penjelasan h3 {
+    text-shadow: #fffefe;
+    line-height: 0em;
+    bottom: 0;
+}
+
+.penjelasan p {
+    font-size: 1em;
+    color: #cecece;
+    text-shadow: gold(255, 255, 255);
+    line-height: 1.3em;
+}
+
+.main1 {
+    background-image: url(Untitled\ design\ \(3\).png);
+    width: calc(100% - 140px);
+    height: 55vh;
+    margin-top: -1.5em;
+    padding: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    z-index: -1;
+}
+
+.main1 h2 {
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5) ;
+}
+
+.visi3 {
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(33, 33, 33);
+    width:30;
+    height: 250px;
+    text-align: center;
+    color: white;
+}
+
+.misi3 {
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(33, 33, 33);
+    width:30;
+    height: 250px;
+    float: left;
+    color: white;
+}
+
+.motto3 {
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(33, 33, 33);
+    width:30;
+    height: 250px;
+    float: left;
+    color: white;
+    text-align: center;
+}
+
+.main1 h2 {
+    text-align: center;
+    line-height: 0.2em;
+    color: goldenrod;
+}
+
+.separator3 {
+    width: 100%;
+    height: 0.1px;
+    background-color: #616161;
+    margin-top: 70px;
+    display: none;
+    float: inline-start;
+}
+
+.main2 p {
+    color: #dddddd;
+    font-size: 0.8em;
+}
+
+.main2 h3 {
+    color: #999999 ;
+    font-size: 1em;
+    line-height: 1em;
+}
+
+.main2 {
+    color: goldenrod;
+    padding: 50px;
+    padding-top: 30px;
+    margin-left: 0;
+    top: 0;
+    background-color: rgb(25, 25, 25);
+    width: calc(100% - 100px);
+    padding-bottom: 30px;
+    display: flex;
+    font-size: 1.2em;
+    gap: 4.5em;
+    line-height: 1.5em;
+    justify-content: space-between;
+}
+
+.separator {
+    width: 100%;
+    height: 0.5px;
+    background-color: #575757;
+    display: block;
+    clear: both;
+}
+
+footer {
+    background-color: black;
+    color: #ffffff;
+    padding: 10px;
+    padding-bottom: 30px;
+    position: relative;
+    width: calc(100% - 20px);
+    height: 30px;
+    text-align: center;
+    display: block;
+    z-index: 1;
+    bottom: 0;
+}
+
+hr {
+    display: block;
+    bottom: -1em;
+    margin-top: 100px;
+}
